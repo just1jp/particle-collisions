@@ -13,3 +13,7 @@ circle {
   top: 0;
   left: 0;
 }
+
+.zombie {
+	background: url(../img/zombie.gif);
+}
