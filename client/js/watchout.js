@@ -32,15 +32,18 @@ var update = function(data) {
   // Place elements on screen
   circle.enter().append('circle')
     .attr('r', 5 + 'px')
-    .attr('cx', function(d) { return Math.round(Math.random() * screenW); })
-    .attr('cy', function(d) { return Math.round(Math.random() * screenH); });
+    .attr('cx', function(d) { return d.x; })
+    .attr('cy', function(d) { return d.y; });
 };
 
 // The initial food display
 renderFood(10);
 update(food);
 
-// // Food changing location
-// d3.interval(function() {
-//   update(d3.shuffle(food));
-// }, 1500);
+
+
+
+
+
+
+
