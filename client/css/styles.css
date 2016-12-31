@@ -1,0 +1,15 @@
+circle {
+  fill: blue;
+}
+
+.scoreboard {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.tank {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
